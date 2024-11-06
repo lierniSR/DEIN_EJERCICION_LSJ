@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="47.0" prefWidth="334.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER_RIGHT" prefWidth="100.0" textAlignment="RIGHT" HBox.hgrow="ALWAYS">
+         <HBox.margin>
+            <Insets left="10.0" top="13.0" />
+         </HBox.margin>
+      </Label>
+      <TextField alignment="CENTER" prefHeight="25.0" prefWidth="238.0" HBox.hgrow="ALWAYS">
+         <HBox.margin>
+            <Insets left="20.0" top="10.0" />
+         </HBox.margin>
+      </TextField>
+   </children>
+</HBox>
