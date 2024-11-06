@@ -8,6 +8,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+/**
+ * Controlador del formulario
+ *
+ * @author Lierni
+ * @version 1.0
+ */
 public class ControladorFormulario {
 
     @FXML
@@ -23,6 +29,11 @@ public class ControladorFormulario {
     @FXML
     public TextField profesion;
 
+    /**
+     * Sale una alerta con la informacion que ha introducido el usuario
+     *
+     * @param actionEvent
+     */
     public void abrirAlerta(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText(null);
@@ -34,6 +45,11 @@ public class ControladorFormulario {
         alert.showAndWait();
     }
 
+    /**
+     * Cierra la ventana
+     *
+     * @param actionEvent
+     */
     public void cerrarStage(ActionEvent actionEvent) {
         ((Stage) nombre.getScene().getWindow()).close();
     }
